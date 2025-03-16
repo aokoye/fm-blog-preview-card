@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 250px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.container {
+    display: flex;
+    max-width: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin-right: 60%;
+        margin-left: 25%;
+    }
+
+    .container {
+        max-width: 250px;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px black solid;
+    box-shadow: 10px 10px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.image img {
+    border-radius: 15px;
+}
+
+.tag {
+   background-color: hsl(47, 88%, 63%);
+   width: fit-content;
+   padding: 8px 15px;
+   font-weight: 800;
+   margin-bottom: 20px;
+   border-radius: 7px;
+}
+
+h2:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+
+
+.text {
+    color: hsl(0, 0%, 42%);
+    line-height: 2;
+    margin-bottom: 30px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+
+.author img {
+    width: 40px;
+    height: auto;
+    margin-right: 15px;
+}
